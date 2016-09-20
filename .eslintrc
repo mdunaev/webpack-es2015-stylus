@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+   "rules": {
+     "react/require-extension": 0
+     },
+   "globals": {
+        "WebSocket": true,
+        "document": true,
+        "window": true,
+    }
+}
