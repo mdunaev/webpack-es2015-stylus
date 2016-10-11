@@ -27,7 +27,7 @@ module.exports = {
   },
   devtool: 'source-map',
   output: {
-    path: path.resolve(__dirname, 'scripts'),
+    path: path.resolve(__dirname, 'bundle'),
     publicPath: 'bundle',
     filename: 'script.min.js',
   },
